@@ -78,7 +78,7 @@ function loop() {
 
     count = 0;
 
-    if (streak >= 2) {streak = 0; console.log(current_speed);}
+    if (streak >= 2) streak = 0;
 
     // Clear the game field
     ctx.clearRect(0, 0, cvs.width, cvs.height);
