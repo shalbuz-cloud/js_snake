@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+
+.score-table {
+    color: white;
+    display: flex;
+    justify-content: start;
+
+}
+
+.score {
+    color: white;
+    font-size: 24px;
+    width: 50%;
+    display: block;
+}
